@@ -95,7 +95,7 @@ const Post = ({ frontMatter, content, slug }) => {
                     description: frontMatter.description,
                     images: [
                         {
-                            url: `https://aura-st.github.io/posts/${frontMatter.image}`,
+                            url: `https://aura-st.github.io/${frontMatter.image}`,
                             width: 1200,
                             height: 700,
                             alt: frontMatter.title,
