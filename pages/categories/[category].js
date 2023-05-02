@@ -33,7 +33,7 @@ export const getStaticProps = ({ params }) => {
 };
 
 export const getStaticPaths = () => {
-  const categories = ['react', 'nextjs'];
+  const categories = ['other'];
   const paths = categories.map((category) => ({ params: { category } }));
 
   return {
